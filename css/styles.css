@@ -1,0 +1,160 @@
+
+/* Global  */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Be Vietnam", sans-serif;
+}
+
+section{
+    padding: 40px;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+    min-height:100px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+#movies img{
+    height: 300px;
+    width: auto;
+}
+
+/* Navbar */
+
+.navbar{
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+.navbar a:hover{
+    color: #db0000;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 5px;
+    align-items: center;
+    filter: invert(14%) sepia(95%) saturate(4350%) hue-rotate(0deg) brightness(86%) contrast(122%);
+    width: 40px;
+    height: 40px;
+}
+
+/* About sction */
+#about{
+    background: url(../img/aboutbackground.png);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#about h1 p{
+    font-weight: bold;
+    color: white;
+}
+
+#about .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#about button{
+    border: none;
+    background-color: #db0000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+
+/* Movies Section */
+
+#movies{
+    background: linear-gradient(#390000, black);
+}
+#movies h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    word-wrap: break-word; 
+}
+
+/* Quote */
+
+.quoteinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* Call to Action */
+
+#calltoaction .cta_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center; 
+    background: linear-gradient(#390000, #161414);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px
+}
+
+#calltoaction button{
+    border: none;
+    background-color:white;
+    color: #db0000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
